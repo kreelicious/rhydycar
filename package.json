@@ -9,7 +9,8 @@
     "jquery": "^3.4.1",
     "motion-ui": "^2.0.3",
     "trix": "1.0.0",
-    "turbolinks": "^5.2.0"
+    "turbolinks": "^5.2.0",
+    "what-input": "^5.2.6"
   },
   "devDependencies": {
     "webpack-dev-server": "^3.9.0"

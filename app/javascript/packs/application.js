@@ -18,11 +18,11 @@
 console.log('Hello World from Webpacker')
 require("@rails/ujs").start()
 require("turbolinks").start()
-require("jquery").start()
+require("jquery")
 require("@rails/activestorage").start()
 require("trix")
 require("@rails/actiontext")
-require("foundation-sites").start()
-require("channels")
+window.jQuery = $;
+require("foundation-sites")
 
 $(document).foundation();
